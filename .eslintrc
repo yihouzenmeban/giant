@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "airbnb",
+    "airbnb-typescript/base"
+  ],
+  "rules": {
+    "indent": ["error", 2],
+    "arrow-body-style": "off"
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}
